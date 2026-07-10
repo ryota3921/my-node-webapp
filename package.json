@@ -1,0 +1,9 @@
+{
+  "name": "my-node-webapp",
+  "version": "1.0.0",
+  "description": "Azure App Service CI/CD demo",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  }
+}
