@@ -16,7 +16,7 @@ const server = http.createServer((req, res) => {
 </head>
 <body style="font-family:sans-serif; text-align:center; margin-top:80px; background:#f5f5f5;">
   <h1 style="color:${COLOR};">Azure App Service Demo</h1>
-  <p>GitHub Actions から自動デプロイしています。（中村）</p>
+  <p>GitHub Actions から自動デプロイしています。</p>
   <div style="display:inline-block; margin-top:20px; padding:16px 40px; border-radius:10px; background:${COLOR}; color:#ffffff; font-size:32px; font-weight:bold;">
     Version ${VERSION}
   </div>
