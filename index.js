@@ -2,8 +2,8 @@ const http = require("http");
 const port = process.env.PORT || 3000;
 
 // ▼▼▼ この2つの値を変えるだけで見た目が大きく変わります ▼▼▼
-const VERSION = "1.0";
-const COLOR = "#0078d4"; // 青
+const VERSION = "2.0";
+const COLOR = "#ffff00"; // 黄色
 // ▲▲▲ 変更テストのときは ここを "2.0" / 別の色 に変える ▲▲▲
 
 const server = http.createServer((req, res) => {
